@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <title>SENSES SALON & SPA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/swipebox.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide myCarousel w3-grayscale-min" id="home">
+
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="navmenu">
+  <div class="menu2">
+    <a href="#home" style="width:25%" class="home">Home</a>
+    <a href="#about" style="width:25%" class="about">About</a>
+	<a href="#service" style="width:25%" class="ser">Services</a>
+    <a href="#gallery" style="width:25%" class="gall">Gallery</a>
+	<a href="#contact" style="width:25%" class="con">Contact Us</a>
+
+  </div>
+</div>
+
+
+
+<!-- CAROUSEL For Header / Home-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+	<li data-target="#myCarousel" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+  
+    <div class="item active">
+      <img src="b1.jpg" alt="SENSES Salon & Spa">
+    </div>
+
+    <div class="item">
+      <img src="b2.jpg" alt="SENSES Salon & Spa">
+    </div>
+
+    <div class="item">
+      <img src="b3.jpg" alt="SENSES Salon & Spa">
+    </div>
+
+    <div class="item">
+      <img src="b4.jpg" alt="SENSES Salon & Spa">
+    </div>
+	
+	<div class="item">
+      <img src="b5.jpg" alt="SENSES Salon & Spa">
+    </div>
+	
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<script>
+$(document).ready(function(){
+    // Activate Carousel
+    $("#myCarousel").carousel();
+    
+    // Enable Carousel Indicators
+    $(".item1").click(function(){
+        $("#myCarousel").carousel(0);
+    });
+    $(".item2").click(function(){
+        $("#myCarousel").carousel(1);
+    });
+    $(".item3").click(function(){
+        $("#myCarousel").carousel(2);
+    });
+    $(".item4").click(function(){
+        $("#myCarousel").carousel(3);
+    });
+    
+    // Enable Carousel Controls
+    $(".left").click(function(){
+        $("#myCarousel").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#myCarousel").carousel("next");
+    });
+});
+</script>
+
+
+<!-- end of CAROUSEL For Header / Home-->
+<br>
+<!-- about -->
+<div class= "abmenu" "w3-container w3-padding-64 w3-center" id="about">
+<div class = "abTitle"> <h1>About</h1> </div>
+
+	<div class="ab">
+		<p> DGDs SENSES Your Salon and Spa is a locally-established salon mainly 
+						located in Rd1 Minuyan Proper San Jose Del Monte, Bulacan. 
+						The salon is owned and operated by Dennis David a Marketing and Business Administration graduate 
+						with 10 years experience in Corporate Marketing and Sales in Metro Manila. 
+						DGDs SENSES Your Salon and Spa humbly began January 8, 2012. 
+						Dennis opens the pioneering outlet with a goal of serving the customer 
+						with the best of quality and customer service. The salon aims to deliver service that 
+						will pamper the customer in achieving a more beautiful and relaxing feeling.  </p>
+						
+		<p>DGDs SENSES Your Salon and Spa offers hair treatments, massage, body scrub and many more.
+			The company wants the customers to feel good and look good as well. 
+			The salon is not limited to women clientele; in fact most men prefer also the touch of DGDs SENSES Your Salon and Spa 
+			to achieve maximum beauty with affordable price. The salon is staffed with well-trained and friendly service provider 
+			that will serve the customers with maximum satisfaction. The salon implemented a specialized training for employees 
+			that will prepare them in meeting the standards of customers.</p>				
+						
+	</div> <br> <br>
+	
+	<!-- team -->
+	<div id="team" class="team">
+		<div class="container">
+			<div class="team">
+				<div class="col-md-3 team-grids wow zoomIn animated" data-wow-delay=".5s">
+					<img class="img-responsive" src="images/a1.jpg" alt="">
+					<h4>Dennis David</h4>
+					<p>Owner</p>
+				</div>
+				
+				<div class="col-md-3 team-grids wow zoomIn animated" data-wow-delay=".5s">
+					<img class="img-responsive" src="images/a2.jpg" alt="">
+					<h4>Esther Eve Villanueva</h4>
+					<p>Manager</p>
+				</div>	
+				
+				<div class="col-md-3 team-grids wow zoomIn animated" data-wow-delay=".5s">
+					<img class="img-responsive" src="images/a4.jpg" alt="">
+					<h4>Rica</h4>
+					<p>Stylist </p>
+				</div>	
+				
+				<div class="col-md-3 team-grids wow zoomIn animated" data-wow-delay=".5s">
+					<img class="img-responsive" src="images/a51.jpg" alt="">
+					<h4>Maja</h4>
+					<p>Therapist</p>
+				</div>	
+				<div class="clearfix"> </div>
+			</div> 
+		</div>
+	</div>
+	<!-- //team -->
+	
+</div>
+
+<!-- //about -->
+
+
+<!-- services -->
+<div class="services" id ="service">
+	<div class="container">
+		<div class = "svTitle"> <h1>Services</h1> </div>
+			
+			<script src="js/jquery.swipebox.min.js"></script> 
+			<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+			</script>
+			
+				<div class="view view-seventh">
+                    <a href="images/s1.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Hair Cut"><img src="images/s1.jpg" alt="" class="img-responsive">
+                    <div class="mask">
+                       <h4>Hair Cut</h4>
+                        <p> Php 49.00 </p>
+                        
+                    </div></a>
+                </div>
+                <div class="view view-seventh">
+                    <a href="images/s2.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Hair Spa"><img src="images/s2.jpg" alt="" class="img-responsive">
+                    <div class="mask">
+                        <h4>Hair Spa</h4>
+                        <p> Php 99.00 </p>
+                    </div></a>
+                </div>
+                <div class="view view-seventh">
+                    <a href="images/s3.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Rebond"><img src="images/s3.jpg" alt="" class="img-responsive">
+					<div class="mask">
+                        <h4>Smooth Rebond</h4>
+                        <p> Php 799.00 </p>
+						<p> Smooth Rebond w/ Cellophane - Php 999.00 </p>
+                    </div></a>
+                </div>
+				<div class="view view-seventh">
+                    <a href="images/s4.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Foot Spa"><img src="images/s4.jpg" alt="" class="img-responsive">
+                    <div class="mask">
+                       <h4>Foot Spa w/ Manicure & Pedicure</h4>
+                       <p> Php 199.00 </p>
+                    </div></a>
+                </div>
+                <div class="view view-seventh">
+                    <a href="images/s5.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Foot Massage"><img src="images/s5.jpg" alt="" class="img-responsive">
+                    <div class="mask">
+                        <h4>Foot Spa w/ Manicure & Pedicure + 20mins. Foot Massage</h4>
+                        <p> Php 249.00 </p>
+                    </div></a>
+                </div>
+                <div class="view view-seventh">
+                    <a href="images/s6.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Manicure & Pedicure"><img src="images/s6.jpg" alt="" class="img-responsive">
+                    <div class="mask">
+                        <h4>Manicure and Pedicure</h4>
+                        <p> Php 109.00 </p>
+                    </div></a>
+                </div>
+                <div class="view view-seventh">
+                    <a href="images/s7.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Body Massage"><img src="images/s7.jpg" alt="" class="img-responsive">
+                    <div class="mask">
+                       <h4> 1 Hour Body Massage</h4>
+                        <p> Php 149.00 </p>
+                    </div></a>
+                </div>
+				<div class="view view-seventh">
+                    <a href="images/s8.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Facial"><img src="images/s8.jpg" alt="" class="img-responsive">
+                    <div class="mask">
+                        <h4>Facial</h4>
+                        <p> Php 99.00 </p>
+                    </div></a>
+                </div>
+				<div class="view view-seventh">
+                    <a href="images/s9.jpg" class="b-link-stripe b-animate-go  swipebox"  title="Makeup"><img src="images/s9.jpg" alt="" class="img-responsive">
+                    <div class="mask">
+                        <h4>Makeup</h4>
+                        <p> Php 199.00 </p>
+                    </div></a>
+                </div>
+				<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //services -->
+
+
+<!-- gallery -->
+<<div class="gal" "w3-container w3-padding-64 w3-center" id="gallery">
+<div class = "glTitle"> <h1>Gallery</h1> </div>
+
+<div class="gallery">
+	<div class="container">
+			
+				<div class="galview ">
+                    <a href="images/c1.jpg" target="_blank"  
+					   title="Senses"><img src="images/c1.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+				
+				<div class="galview">
+                    <a href="images/c2.jpg" target="_blank"  
+					   title="Senses"><img src="images/c2.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+				
+				<div class="galview">
+                    <a href="images/a3.jpg" target="_blank"  
+					   title="Senses"><img src="images/a3.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+				
+				<div class="galview ">
+                    <a href="images/c5.jpg" target="_blank"  
+					   title="Senses"><img src="images/c5.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+				
+				<div class="galview">
+                    <a href="images/a5.jpg" target="_blank"  
+					   title="Senses"><img src="images/a5.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+				
+				<div class="galview">
+                    <a href="images/a6.jpg" target="_blank"  
+					   title="Senses"><img src="images/a6.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+				
+				<div class="clearfix"></div>
+	</div>
+</div>
+</div>
+
+
+<!-- //gallery -->
+
+
+<!-- Footer -->
+<!-- contact -->
+	<div class="contact" id="contact">
+		<div class="container">
+		<div class = "cnTitle"> <h1>Contact Us</h1> </div>
+			<div class="w3layouts-contact-grids">
+				<div class="col-sm-3 w3layouts-contact-grid">
+					<i class="fa fa-map" aria-hidden="true"></i>
+					<h5>Address</h5>
+					<p>F & E Bldg. Santa Maria - Tungkong Mangga Road, San Jose del Monte City, 3023 Bulacan</p>
+				</div>
+				<div class="col-sm-3 w3layouts-contact-grid">
+					<i class="fa fa-phone" aria-hidden="true"></i>
+					<h5>Phone/Fax</h5>
+					<p>+63 922 845 0779</p>
+				</div>
+				<div class="col-sm-3 w3layouts-contact-grid">
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+					<h5>Email</h5>
+					<p><a href="mailto:info@example.com"> senses@yahoo.com</a></p>
+				</div>
+				<div class="col-sm-3 w3layouts-contact-grid">
+					<i class="fa fa-share-alt" aria-hidden="true"></i>
+					<h5>Social</h5>
+					<p>Touch With Us</p>
+					<div class="agileinfo-social-grids">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div> <br>
+	<!-- //contact -->
+
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<div class="copyright">
+				<p>Senses Salon and Spa</p>
+			</div>
+		</div>
+	</footer>
+	<!-- //footer -->
+
+</body>
+</html>
